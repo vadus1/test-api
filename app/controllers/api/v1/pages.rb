@@ -5,8 +5,16 @@ module API
 
       resource :pages do
         desc "Return all pages"
-        get "", root: :pages do
-          #Page.all
+        get do
+          Page.all
+        end
+
+        desc "Create an page"
+        params do
+          requires :url,     type: String
+        end
+        post do
+          Page.create!(url: params.url)
         end
       end
     end

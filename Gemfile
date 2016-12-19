@@ -29,9 +29,11 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+gem 'httparty'
+gem 'nokogiri'
+
 #API
 gem 'grape'
-gem 'grape-active_model_serializers'
 # UI for grape
 gem 'grape-swagger'
 gem 'grape-swagger-rails'
