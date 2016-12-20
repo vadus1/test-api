@@ -88,3 +88,8 @@ And click on button Explore
 How to run the test suite
 -------------------------
 Run `rspec .` to run all RSpec tests.
+
+Application on heroku
+-----------------
+
+[Check app on heroku](https://api-test-application.herokuapp.com/)
